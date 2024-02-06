@@ -25,7 +25,8 @@ const Footer = ({ footerAPI: { titles, links } }) => {
             ))}
           </div>
           <div className='mt-5 text-center'>
-            <p className='text-sm md:text-center'>Copyright<sup className='text-base font-bold'>&copy;</sup> All Reserved Rights <span className='font-semibold'>JSSTACK DEVELOPERS {Year}</span></p>
+            <p className='text-sm md:text-center'>Copyright &copy; {Year} <span className='font-semibold'>Ahmed Abaad.</span></p>
+            <p>All Reserved Rights.</p>
           </div>
         </div>
       </footer>
